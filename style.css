@@ -1,0 +1,150 @@
+*{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+}
+
+header{
+    height: 5vh;
+    background-color: #07ab80;
+    color: white;
+}
+
+footer{
+    background-color: #dfe9e8;
+    color: #07ab80;
+}
+
+.top-footer{
+    background-color: #07ab80;
+    color: white;
+    padding: 3em;
+    padding-left: 5em;
+}
+
+.bottom-footer{
+    color: #07ab80;
+/* background-color: #dfe9e8; */
+}
+
+h2{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+}
+
+h6{
+    color: black;
+    padding-top: 1em;
+}
+
+form{
+    background-color: white;
+    margin: 3em;
+    /* margin-right: 3em;
+    margin-left: 3em; */
+    padding: 3em;
+    border-radius: 10px;
+}
+
+.p-green{
+    background-color: #07ab80;
+}
+
+.bg-hdr-icon{
+    height: 5vh;
+}
+
+.first-chunk{
+    background-image: url(https://images.unsplash.com/photo-1674214857700-b5a833693513?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+    background-position: center;
+}
+
+.second-chunk{
+    background-color: #07ab80;
+}
+
+.third-chunk{
+    background-color: white;
+    padding: 5em;
+}
+
+.fourth-chunk{
+    background-color: #dfe9e8;
+    padding: 7em;
+}
+
+.text-ovr-img{
+    display: flex!important;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2em;
+    color: white;
+}
+
+.first-line{
+    height: 13vh;
+    background-color: #07ab80;
+    color: #07ab80;
+}
+
+.subtle-heading{
+    display: flex;
+    color: white;
+}
+
+.card-w-icons{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.spades{
+    transform: translateY(10vh);
+  }
+
+  .cube-img{
+    height: 40em;
+    width: 20em;
+    margin: 2em;
+    border-radius: 5px;
+}
+
+.cube-t-1{
+    font-size: 3em;
+}
+
+.cube-txt{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.cube-padding{
+    padding-top: 4em;
+    padding-bottom: 1em;
+}
+
+.cube-h6{
+    padding-top: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.button-click{
+    transform: translateX(1em);
+}
+
+.tri-cards{
+    background-color: white;
+    border-radius: 5px;
+padding: 1em;
+text-align: center;
+/* display: flex; */
+}
+
+.t-card-edge{
+    padding-top: 2em;
+}
+
+.green-text{
+    color: #07ab80;
+}
+
+

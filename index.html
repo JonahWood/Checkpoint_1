@@ -4,19 +4,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" defer></script>
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<title>Document</title>
+<!-- SECTION debug -->
+<style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
 </head>
 <body>
     
-<header></header>
+<header class="sticky-top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mdi mdi-brain">Lorem Ipsum</h2>
+            </div>
+        </div>
+    </div>
+</header>
 
-<main></main>
+<main>
+<!-- SECTION First Chunk -->
+    <div class="first-chunk">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll always share your email with everyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Hear me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-5 offset-2 d-flex text-ovr-img">
+                    <p class="first-line">n</p>
+                    <div class="row">
+                        <div class="col-12 offset-md-1">
+                            <h1> <b>Text Over Image</b> </h1>
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, molestias!</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- SECTION Second Chunk -->
+    <div class="second-chunk">
+<div class="container">
+    <div class="row">
+        <div class="col-5 py-5">
+            <h2><b>Lorem ipsum dolor sit amet.</b></h2>
+            <h2><b>Lorem ipsum dolor.</b></h2>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere in, quidem perferendis tenetur minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae dolores rerum.</h6>
+        </div>
+        <div class="col-7">
+            <div class="card-w-icons mt-5 spades shadow-lg">
+                <div class="row">
+                    <div class="col-12"><h6 class="mdi mdi-brain">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, amet. Lorem ipsum.</h6></div>
+                    <div class="col-12"><h6 class="mdi mdi-brain">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, amet. Lorem ipsum.</h6></div>
+                    <div class="col-12"><h6 class="mdi mdi-brain">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, amet. Lorem ipsum.</h6></div>
+                    <div class="col-12"><h6 class="mdi mdi-brain">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, amet. Lorem ipsum.</h6></div>
+                    <div class="col-12"><h6 class="mdi mdi-brain">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, amet. Lorem ipsum.</h6></div>
+                    <div class="col-12"><h6 class="mdi mdi-brain">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, amet. Lorem ipsum.</h6></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<!-- SECTION Third Chunk -->
+    <div class="third-chunk">
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+                <img class="cube-img shadow-lg" src="https://images.unsplash.com/photo-1532456745301-b2c645d8b80d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+        </div>
+        <div class="col-8 offset-md-1">
+            <h1 class="cube-txt cube-t-1 cube-padding mdi mdi-brain"><b>Lorem ipsum dolor sit amet.</b></h1>
+            <h1 class="cube-txt cube-t-1"><b>Lorem ipsum dolor sit amet.</b></h1>
+            <h6 class="cube-h6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore fuga, nulla, ut reiciendis exercitationem, consequatur vitae ratione quo ab error saepe quis obcaecati hic ad?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illo eum cum minima doloribus dignissimos.</h6>
+            <div class="row">
+                <div class="col-2 offset-md-9">
+                    <button class="p-green">Brain</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<!-- SECTION Fourth Chunk -->
+    <div class="fourth-chunk">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 offset-md-1  t-card-edge">
+                <div class="row">
+                    <div class="col-12 tri-cards">
+                        <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, quisquam. </h5> <h6 class="green-text"><b>Lorem, ipsum dolor.</b></h6>
+                    </div>
+                </div>
+                </div>
+            
+
+            <div class="col-3 offset-md-1 tri-cards center-card shadow-lg">
+                <div class="row">
+                    <div class="col-12 py-3">
+                        <div class="row">
+                            <div class="col-4"><div class="mdi mdi-brain brain-size"></div></div>
+                            <div class="col-4"><div class="mdi mdi-brain brain-size"></div></div>
+                            <div class="col-4"><div class="mdi mdi-brain brain-size"></div></div>
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, quisquam. </h5> <h6 class="green-text"><b>Lorem, ipsum dolor.</b></h6>
+
+                    </div>
+                </div>
+                
+                
+            
+            </div>
+            <div class="col-3 offset-md-1  t-card-edge"> 
+                <div class="row">
+                    <div class="col-12 tri-cards">
+                        <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, quisquam. </h5> <h6 class="green-text"><b>Lorem, ipsum dolor.</b></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
 
 
-<footer></footer>
+<footer>
+    <div class="top-footer">
+        <h1><b>Lorem ipsum dolor sit amet.</b></h1>
+        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non officia sint vero ut, sed ipsam!</h5>
+    </div>
+    <h6 class="py-5 px-5 bottom-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, modi magnam voluptates repellat voluptas debitis aut? Nobis sit totam sapiente.</h6>
+</footer>
 
 </body>
+
 </html>
