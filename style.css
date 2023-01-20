@@ -147,4 +147,27 @@ text-align: center;
     color: #07ab80;
 }
 
+.chunk-2-text{
+}
 
+.chunk-2-card{
+    order: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+.chunk-2-card{
+    
+}
+
+.chunk-2-text{
+order: 1;
+}
+
+.chunk-2-stack{
+    
+}
+
+
+
+}
