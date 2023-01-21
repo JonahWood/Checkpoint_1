@@ -23,6 +23,7 @@ footer{
 .bottom-footer{
     color: #07ab80;
 /* background-color: #dfe9e8; */
+padding: 1em;
 }
 
 h2{
@@ -96,13 +97,15 @@ form{
 }
 
 .spades{
-    transform: translateY(10vh);
+    transform: translateY(20vh);
   }
 
   .cube-img{
     height: 40em;
     width: 20em;
-    margin: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
     border-radius: 5px;
 }
 
@@ -123,8 +126,8 @@ form{
 
 .cube-h6{
     padding-top: 2em;
-    padding-left: 8em;
-    padding-right: 8em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .button-click{
@@ -141,6 +144,7 @@ text-align: center;
 
 .t-card-edge{
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .green-text{
@@ -148,6 +152,7 @@ text-align: center;
 }
 
 .chunk-2-text{
+    color: white;
 }
 
 .chunk-2-card{
@@ -156,18 +161,53 @@ text-align: center;
 
 
 @media screen and (max-width: 768px) {
-.chunk-2-card{
-    
-}
-
 .chunk-2-text{
 order: 1;
 }
 
-.chunk-2-stack{
-    
+
+.spades{
+    transform: translateY(0vh);
+  }
+
+  .cube-img{
+    height: 30em;
+    width: 15em;
+    /* margin-top: 2em;
+    margin-bottom: 2em; */
+    /* margin-right: 2em; */
+    border-radius: 5px;
 }
 
+.cube-img-text-mobile{
+    font-size: 1em;
+}
 
+.cube-t-1{
+    font-size: 1em;
+}
+
+.cube-h6{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.tri-card-pad{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.top-footer{
+    background-color: #07ab80;
+    color: white;
+    padding: 1em;
+    padding-left: 1em;
+}
+
+.bottom-footer{
+    color: #07ab80;
+/* background-color: #dfe9e8; */
+}
 
 }
