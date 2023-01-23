@@ -159,7 +159,15 @@ text-align: center;
     order: 1;
 }
 
-
+.animation-cube{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
 @media screen and (max-width: 768px) {
 .chunk-2-text{
 order: 1;
